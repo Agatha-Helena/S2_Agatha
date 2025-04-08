@@ -5,12 +5,12 @@ print("Olá! Farei alguns cálculos básicos para você, como soma (+), subtraç
 def ad():
     n1 = float(input("Digite o primeiro número: "))
     n2 = float(input("Digite o segundo número: "))
-    return n1 - n2
+    return n1 + n2
 
-def pot():
-    n4 = float(input("Digite o primeiro número: "))
-    n1 = int(input("Digite o segundo número: "))
-    return n1 ** n2
+def su():
+    n1 = float(input("Digite o primero número: "))
+    n1 = float(input("Digite o segnndo numero: "))
+    return n1 - (n2 - 1)
 
 def mul():
     n1 = float(input("Digite o primeiro número: "))
@@ -34,5 +34,5 @@ def esco():
     else:
         print("Erro")
 
-Y = input("Escolha o cálculo de acordo com a mensagem acima: ")
+r = input("Escolha o cálculo de acordo com a mensagem acima: ")
 ad()
